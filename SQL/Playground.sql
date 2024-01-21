@@ -1,0 +1,1 @@
+SELECT SUM(total_sales) AS Sales, client_id FROM works_with GROUP BY(client_id);
